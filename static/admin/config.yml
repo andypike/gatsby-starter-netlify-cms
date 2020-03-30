@@ -15,7 +15,7 @@ collections:
   - name: "staff"
     label: "Staff"
     folder: "src/pages/staff"
-    create: true
+    create: false
     slug: "{{first_name}}-{{last_name}}"
     fields:
       - { label: "First Name", name: "first_name", widget: "string" }
