@@ -14,9 +14,6 @@ public_folder: /img
 collections:
   - name: "staff"
     label: "Staff"
-    folder: "src/pages/staff"
-    create: false
-    slug: "{{first_name}}-{{last_name}}"
     fields:
       - { label: "First Name", name: "first_name", widget: "string" }
       - { label: "Last Name", name: "last_name", widget: "string" }
