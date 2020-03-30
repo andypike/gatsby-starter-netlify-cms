@@ -12,7 +12,7 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - staff: "staff"
+  - name: "staff"
     label: "Staff"
     folder: "src/pages/staff"
     create: true
